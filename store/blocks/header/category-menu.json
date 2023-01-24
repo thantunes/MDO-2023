@@ -1,0 +1,331 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-lojaonlone",
+      "menu-item#category-oculosdesol",
+      "menu-item#category-oculosdegrau",
+      "menu-item#category-lancamentos",
+      "menu-item#category-essentials",
+      "menu-item#category-outlet",
+
+      "menu-item#category-apparel",
+      "menu-item#category-home",
+      "menu-item#more"
+    ]
+  },
+  "menu-item#category-lojaonlone": {
+    "props": {
+    "id": "menu-item-category-lojaonlone",
+    "blockClass": "menulojaonline",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+    "type": "external",
+    "href": "https://loja.mercadaodosoculos.com.br/",
+    "noFollow": false,
+    "tagTitle": "LOJA ONLINE",
+    "text": "LOJA ONLINE",
+    "blockClass": "link-menu"
+   }
+ }
+},
+  "menu-item#category-oculosdesol": {
+    "props": {
+      "id": "menu-item-category-oculosdesol",
+      "blockClass": "menuoculosdesol",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"97",
+        "href": "/oculos-de-sol/",
+        "noFollow": false,
+        "tagTitle": "ÓCULOS DE SOL",
+        "text": "ÓCULOS DE SOL",
+        "blockClass": "link-menu"
+      }
+    }
+  },
+  "menu-item#category-oculosdegrau": {
+    "props": {
+      "id": "menu-item-category-oculosdegrau",
+      "blockClass": "menuoculosdegrau",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"98",
+        "href": "/oculos-de-grau/",
+        "noFollow": false,
+        "tagTitle": "ÓCULOS DE GRAU",
+        "text": "ÓCULOS DE GRAU",
+        "blockClass": "link-menu"
+      }
+    }
+  },
+  "menu-item#category-essentials": {
+    "props": {
+      "id": "menu-item-category-essentials",
+      "blockClass": "menumessentials",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"99",
+        "href": "/mais-vendidos/",
+        "noFollow": false,
+        "tagTitle": "ESSENTIALS",
+        "text": "ESSENTIALS",
+        "blockClass": "link-menu"
+      }
+    }
+  },
+  "menu-item#category-outlet": {
+    "props": {
+      "id": "menu-item-category-promocao",
+      "blockClass": "menupromocao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID":"100",
+        "href": "/promocao/",
+        "noFollow": false,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET",
+        "blockClass": "link-menu"
+      }
+    }
+  },
+  "menu-item#category-lancamentos": {
+    "props": {
+      "id": "menu-item-category-lancamentos",
+      "blockClass": "menulancamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/",
+        "categoryID":"101",
+        "noFollow": false,
+        "tagTitle": "LANÇAMENTOS",
+        "text": "LANÇAMENTOS",
+        "blockClass": "link-menu"
+      }
+    }
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "oculto",
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+
+
+
+
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "blockClass": "oculto",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "blockClass": "oculto",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "blockClass": "oculto",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "blockClass": "oculto",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "blockClass": "oculto",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "blockClass": "oculto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "blockClass": "oculto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "blockClass": "oculto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

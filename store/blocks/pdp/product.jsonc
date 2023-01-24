@@ -1,0 +1,280 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#descricaoetabelapdp",
+     // "flex-layout.row#description",
+     // "flex-layout.row#specifications-title",
+     // "product-specification-group#table",
+     // "flex-layout.row#novatabelaprincipalpdp",
+      "flex-layout.row#novatebelaespecificacaopdp",
+      "shelf.relatedProducts"
+      //"product-reviews",
+     // "product-questions-and-answers"
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+       }
+  },
+
+
+  "flex-layout.row#descricaoetabelapdp":{
+    "children": [
+      "flex-layout.row#description",
+      "flex-layout.row#novatabelaprincipalpdp"
+    ],
+    "props": {
+      "blockClass": "bloco-total-descricao-produto-pdp"
+    }
+
+
+  },
+
+
+
+/* teste thiago tabela  */
+"flex-layout.row#novatabelaprincipalpdp": {
+  "children": [
+    "product-specifications#novatabelaprincipalpdp"
+
+  ]},
+
+  "product-specifications#novatabelaprincipalpdp": {
+    "props": {
+      "blockClass": "tabela-descricao-produto-pdp",
+      "shoudCollapseOnTabChange": false,
+      "hiddenSpecifications":["Comprimento da haste","Largura da lente","Largura da ponte","Altura da lente","Comprimento frontal"],
+      "collapsible": "never"
+     
+    }
+  },
+
+/* end - teste thiago tabela */
+
+"rich-text#descricaoprodutopdp":{
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "Descrição do Produto",
+    "blockClass": "titulo-descricao-produto-pdp"
+  }
+},
+
+  "flex-layout.row#novatebelaespecificacaopdp": {
+    "children": [
+      "product-specifications#comprimentodaaste",
+      "product-specifications#larguralente",
+      "product-specifications#larguradaponte",
+      "product-specifications#alturadalente",
+       "product-specifications#comprimentofrontal"
+    ],
+      "props": {
+        "blockClass": "tabela-geral-blocos-descricao-produto-pdp"
+      }
+
+  },
+
+
+
+  "flex-layout.row#specifications-title": {
+    "children": [
+      "rich-text#specifications"
+    ]
+  },
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/login"
+    }
+  },
+  "rich-text#specifications": {
+    "props": {
+      "text": "##### ESPECIFICAÇÕES"
+    }
+  },
+ "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "bloco-descricao-produto-pdp"
+    },
+    "children": ["rich-text#descricaoprodutopdp","product-description"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-rating-summary",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments",
+      "product-separator",
+      "product-identifier.product",
+      "sku-selector",
+     
+      "product-assembly-options",
+      "product-gifts",
+      "product-quantity",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",
+      "shipping-simulator",
+      "share#default"
+    ]
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["add-to-cart-button"]
+  },
+
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": false,
+        "WhatsApp": false,
+        "Twitter": false,
+        "Pinterest": false
+      }
+    }
+  },
+
+
+
+  
+
+
+  
+
+
+
+
+  "product-specifications#comprimentodaaste": {
+    "props": {
+      "blockClass": "pdp-comprimentodaaste",
+      "shoudCollapseOnTabChange": false,
+      "visibleSpecifications":["Comprimento da haste"],
+      "collapsible": "never"
+     
+    }
+  },
+
+  "product-specifications#larguralente": {
+    "props": {
+      "blockClass": "pdp-larguralente",
+      "shoudCollapseOnTabChange": false,
+      "visibleSpecifications":["Largura da lente"],
+      "collapsible": "never"
+     
+    }
+  },
+
+  "product-specifications#larguradaponte": {
+    "props": {
+      "blockClass": "pdp-larguradaponte",
+      "shoudCollapseOnTabChange": false,
+      "visibleSpecifications":["Largura da ponte"],
+      "collapsible": "never"
+     
+    }
+  },
+
+
+  "product-specifications#alturadalente": {
+    "props": {
+      "blockClass": "pdp-alturadalente",
+      "shoudCollapseOnTabChange": false,
+      "visibleSpecifications":["Altura da lente"],
+      "collapsible": "never"
+     
+    }
+  },
+
+  "product-specifications#comprimentofrontal": {
+    "props": {
+      "blockClass": "pdp-comprimentofrontal",
+      "shoudCollapseOnTabChange": false,
+      "visibleSpecifications":["Comprimento frontal"],
+      "collapsible": "never"
+     
+    }
+  }
+
+
+
+}

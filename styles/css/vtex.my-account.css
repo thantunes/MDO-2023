@@ -1,0 +1,152 @@
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf)
+:global(.vtex-add-to-cart-button-0-x-buttonText) {font-size:0px!important;padding: 0px;background-color: #53B573;padding: 9px!important;border-radius: 5px;margin-top: -7px;}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf)
+:global(.vtex-add-to-cart-button-0-x-buttonText):after{ content:"comprar";font-size:14px;font-family: 'Montserrat',sans-serif;}
+
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-add-to-cart-button-0-x-buttonText){font-size:0px!important;padding: 0px;background-color: #53B573;padding: 9px!important;border-radius: 5px;margin-top: -7px;}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-add-to-cart-button-0-x-buttonText):after{content:"comprar";font-size:14px;font-family: 'Montserrat',sans-serif;}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf)
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle){display:none;}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf)
+:global(.b--action-primary){    height: 35px!important;background-color: transparent;border: none;}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle){display:none;}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-product-summary-2-x-container--product-shelf) {background-color: #fff; padding: 0px 15px;border-radius: 10px;box-shadow: 0px 2px 5px #eaeaea;}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.b--action-primary){    height: 35px!important;background-color: transparent;border: none;}
+
+
+:global(.vtex-product-price-1-x-installments) {
+    color: #727273;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+}
+
+:global(.vtex-product-price-1-x-installments--summary){margin-bottom: 2rem;font-size: 12px!important;font-family: 'Montserrat',sans-serif;}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf)
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){display:none!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bandeiras-pagamentos-footer){max-width: 150px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bandeiras-pagamentos-footer-2){max-width: 150px;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--seguncafooter) {height: 30px!important;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--seguncafooter)
+:global(.vtex-rich-text-0-x-container--footer-institucionaistitulo){    margin-left: 20px;}
+
+
+:global(.vtex-store-components-3-x-specificationsTitle--pdp-comprimentodaaste),
+:global(.vtex-store-components-3-x-specificationsTitle--pdp-larguralente),
+:global(.vtex-store-components-3-x-specificationsTitle--pdp-larguradaponte),
+:global(.vtex-store-components-3-x-specificationsTitle--pdp-alturadalente),
+:global(.vtex-store-components-3-x-specificationsTitle--pdp-comprimentofrontal),
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading--pdp-comprimentodaaste),
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading--pdp-comprimentodaaste),
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading--pdp-larguralente),
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading--pdp-larguralente),
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading--pdp-larguradaponte),
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading--pdp-larguradaponte),
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading--pdp-alturadalente),
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading--pdp-alturadalente),
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading--pdp-comprimentofrontal),
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading--pdp-comprimentofrontal){display:none;}
+
+
+:global(.vtex-store-components-3-x-specificationsTableRow--pdp-comprimentodaaste),
+:global(.vtex-store-components-3-x-specificationsTableRow--pdp-larguralente),
+:global(.vtex-store-components-3-x-specificationsTableRow--pdp-larguradaponte),
+:global(.vtex-store-components-3-x-specificationsTableRow--pdp-alturadalente),
+:global(.vtex-store-components-3-x-specificationsTableRow--pdp-comprimentofrontal){flex-direction: column!important;display: flex!important;}
+
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-comprimentodaaste),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-comprimentodaaste),
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-larguralente),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-larguralente),
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-larguradaponte),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-larguradaponte),
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-alturadalente),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-alturadalente),
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-comprimentofrontal),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-comprimentofrontal){width:100%;}
+
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-comprimentodaaste){width: 100%; background-image: url(/arquivos/comprimento-da-aste.png);padding-bottom:95px;background-size:170px;background-position: center bottom;text-align: center;background-repeat:no-repeat;    border: none;    font-family: 'Montserrat',sans-serif;font-weight: bold;font-size: 15px;}
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-larguralente){width: 100%; background-image: url(/arquivos/larguraArco.png);padding-bottom: 95px;background-size: 170px;background-position: center bottom;text-align: center;background-repeat:no-repeat;    border: none;font-family: 'Montserrat',sans-serif;font-weight: bold;font-size: 15px;}
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-larguradaponte){width: 100%; background-image: url(/arquivos/ponte.png);padding-bottom: 95px;background-size: 170px;background-position: center bottom;text-align: center;background-repeat:no-repeat;    border: none;font-family: 'Montserrat',sans-serif;font-weight: bold;font-size: 15px;}
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-alturadalente){width: 100%; background-image: url(/arquivos/altura.png);padding-bottom: 95px;background-size: 170px;background-position: center bottom;text-align: center;background-repeat:no-repeat;    border: none;font-family: 'Montserrat',sans-serif;font-weight: bold;font-size: 15px;}
+:global(.vtex-store-components-3-x-specificationItemProperty--pdp-comprimentofrontal){width: 100%; background-image: url(/arquivos/frontal.png);padding-bottom: 95px;background-size: 170px;background-position: center bottom;text-align: center;background-repeat:no-repeat;    border: none;font-family: 'Montserrat',sans-serif;font-weight: bold;font-size: 15px;}
+
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-comprimentodaaste),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-larguralente),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-larguradaponte),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-alturadalente),
+:global(.vtex-store-components-3-x-specificationItemSpecifications--pdp-comprimentofrontal ){margin: 0;padding: 0;border: none;text-align: center;    font-family: 'Montserrat',sans-serif; font-weight: bold; font-size: 15px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-descricao-produto-pdp){display: flex;flex-direction: column;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-descricao-produto-pdp)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){width:100%!important;text-align: left;}
+
+:global(.vtex-rich-text-0-x-container--titulo-descricao-produto-pdp){font-family: 'Montserrat',sans-serif;text-align: left;width: 100%;display: block;font-size: 32px;font-weight: 400;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-descricao-produto-pdp)
+:global(.vtex-store-components-3-x-productDescriptionText){font-family: 'Montserrat',sans-serif; margin: 0pc;line-height: 24px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-descricao-produto-pdp)
+:global(.vtex-store-components-3-x-content){    padding: 0px!important;}
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-specificationsTitle){font-family: 'Montserrat',sans-serif;text-align: left; width: 100%; font-size: 32px;font-weight: 400;}
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading){display:none;}
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-total-descricao-produto-pdp){    background-color: #fff;
+    padding: 30px;}
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--tabela-geral-blocos-descricao-produto-pdp){ background-color: #fff;    margin-bottom: 30px;
+        padding-bottom: 10px;}
+
+    :global(.vtex-store-components-3-x-specificationsTableBody--tabela-descricao-produto-pdp){background-color:#fff;}
+    :global(.vtex-flex-layout-0-x-flexRowContent--tabela-geral-blocos-descricao-produto-pdp)
+    :global(.vtex-store-components-3-x-specificationsTableBody){background-color:#fff;}
+
+
+:global(.vtex-rich-text-0-x-paragraph--titulo-descricao-produto-pdp){    padding: 0px;margin: 0px;}
+:global(.vtex-store-components-3-x-specificationItemProperty--tabela-descricao-produto-pdp){font-family: 'Montserrat',sans-serif;
+    font-weight: bold;padding:0px;
+    }
+
+    :global(.vtex-store-components-3-x-specificationItemSpecifications--tabela-descricao-produto-pdp){font-family: 'Montserrat',sans-serif;}
+
+@media (min-width: 980px)
+{
+
+:global(.vtex-login-2-x-contentAlwaysWithOptions){flex-direction: column;}
+:global(.vtex-login-2-x-contentAlwaysWithOptions) {background-image: url(/arquivos/bg-pagina-de-login.png);flex-direction: column;width: 100%; max-width: 100%;background-position: right;background-repeat: no-repeat; background-size: 50%;min-height: 715px;max-width: 1390px;}
+:global(.vtex-login-2-x-loginOptionsContainer) {min-height: 300px;background-color: #fff;border: 2px solid #EBEBED!important;border-radius: 10px; padding: 20px;margin-left: 105px;}
+:global(.vtex-login-2-x-contentFormVisible) { border-radius: 10px; padding: 20px;margin-left: 105px;position: absolute;width: 364px;margin-left: 105px;    min-height: 305px;}
+:global(.vtex-login-2-x-loginOptionsContainer)
+:global(.vtex-login-2-x-formTitle)::before{content: "Bem vindo!";display: block;font-family: 'Montserrat',sans-serif;font-size: 46px;margin-bottom: 30px;}
+:global(.vtex-login-2-x-formTitle)::before{content: "Por E-mail";display: block;font-family: 'Montserrat',sans-serif;font-size: 46px;margin-bottom: 30px;}
+:global(.vtex-login-2-x-formTitle) { background-color: #fff;}
+:global(.vtex-login-2-x-content--emailAndPassword)
+:global(.vtex-login-2-x-loginOptionsContainer){z-index:1;}
+:global(.vtex-login-2-x-content--emailVerification)
+:global(.vtex-login-2-x-contentFormVisible){z-index:1; background-color: #fff;border: 2px solid #EBEBED!important;}
+:global(.vtex-login-2-x-content--codeConfirmation)
+:global(.vtex-login-2-x-contentFormVisible){z-index:1; background-color: #fff;border: 2px solid #EBEBED!important;}
+:global(.render-route-store-login)
+:global(.vtex-minicart-2-x-minicartIconContainer){margin-top: -27px;}
+
+}

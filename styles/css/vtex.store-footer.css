@@ -1,0 +1,38 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits) {    background-color: #fff;}
+:global(.vtex-rich-text-0-x-paragraph--footer-institucionaistitulo) {color: #fff;font-size: 14px;font-family: 'Montserrat',sans-serif;margin: 0px;padding-bottom: 10px;font-weight: 500;}
+:global(.vtex-rich-text-0-x-paragraph--footer-institucionaisconteudo){    padding: 0px; margin: 0px;color:#fff;font-size:12px;    font-family: 'Montserrat',sans-serif;}
+:global(.vtex-flex-layout-0-x-flexColChild--pagamentos-footer){height: 28px!important;}
+:global(.vtex-rich-text-0-x-link--footer-institucionaisconteudo){color:#fff;font-size:12px;    font-family: 'Montserrat',sans-serif;}
+:global(.vtex-flex-layout-0-x-flexRow--bandeiras-pagamentos-footer-2){    margin-top: 9px;}
+
+
+@media only screen and (max-width: 840px) {
+:global(.vtex-rich-text-0-x-container--footer-institucionaistitulo){text-align: center;margin: auto;display: block;}
+:global(.vtex-rich-text-0-x-wrapper--footer-institucionaisconteudo){ margin: auto;display: block;}
+:global(.vtex-rich-text-0-x-paragraph--footer-institucionaisconteudo){font-size: 15px;padding-bottom: 10px;}
+:global(.vtex-rich-text-0-x-paragraph--footer-institucionaistitulo){font-size: 17px; padding-top: 10px; padding-bottom: 10px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bandeiras-pagamentos-footer){ max-width: 100%;}
+:global(.vtex-flex-layout-0-x-flexColChild--pagamentos-footer){height: auto!important;margin:auto;}
+:global(.vtex-flex-layout-0-x-flexRow--bandeiras-pagamentos-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){ float: left; width: 33%!important;}
+:global(.vtex-flex-layout-0-x-flexRow--bandeiras-pagamentos-footer-2)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){ float: left; width: 33%!important;}
+:global(.vtex-flex-layout-0-x-flexColChild--seguncafooter){height: inherit!important;}
+:global(.vtex-flex-layout-0-x-flexColChild--seguncafooter)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {width: 50%!important;float: left;}
+:global(.vtex-flex-layout-0-x-flexColChild--pagamentos-footer){padding-bottom: 10px; padding-top: 10px;}
+:global(.vtex-flex-layout-0-x-flexColChild--seguncafooter){    padding: 0px 20px;}
+
+}

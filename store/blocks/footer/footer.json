@@ -1,0 +1,405 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+
+      "flex-layout.col#logotipofooter",
+      "flex-layout.col#institucionais",
+      "flex-layout.col#duvidas",
+      "flex-layout.col#faleconosco",
+      "flex-layout.col#pagamentosfooter",
+      "flex-layout.col#seguncafooter"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+
+
+  "flex-layout.row#footer-1-mobile": {
+    "children": [
+
+     
+      "flex-layout.col#institucionais",
+      "flex-layout.col#duvidas",
+      "flex-layout.col#faleconosco",
+      "flex-layout.col#pagamentosfooter",
+      "flex-layout.col#seguncafooter"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+
+
+
+  "flex-layout.col#logotipofooter":{
+
+      "children": ["image#logofooter"],
+      "props": {
+        "blockClass": "logo-footer"
+      }
+
+  },
+
+
+  "image#logofooter": {
+    "props": {
+      "src": "/arquivos/logo_custom.png"
+    }
+  },
+
+
+
+
+
+  
+  "flex-layout.col#institucionais":{
+
+    "children": [
+      "rich-text#footerinstitucionaistitulo",
+      "rich-text#footerinstitucionaisquemsomos",
+      "rich-text#footerinstitucionaisnossaslojas",
+      "rich-text#footerinstitucionaissejaumfranqueado"
+    ],
+    "props": {
+      "blockClass": "footer-institucionais"
+    }
+  
+},
+
+"rich-text#footerinstitucionaistitulo": {
+  "props": {
+    "text": "INSTITUCIONAIS",
+    "blockClass": "footer-institucionaistitulo"
+  }
+},
+  "rich-text#footerinstitucionaisquemsomos": {
+    "props": {
+      "text": "Quem somos",
+      "blockClass": "footer-institucionaisconteudo"
+    }
+  },
+
+    
+
+    "rich-text#footerinstitucionaisnossaslojas": {
+      "props": {
+        "text": "Nossas lojas",
+        "blockClass": "footer-institucionaisconteudo"
+      }
+    },
+
+      "rich-text#footerinstitucionaissejaumfranqueado": {
+        "props": {
+          "text": "Seja um franqueado",
+          "blockClass": "footer-institucionaisconteudo"
+        }
+      },
+  
+
+
+
+     "flex-layout.col#duvidas":{
+
+      "children": [
+        "rich-text#footerduvidastitulo",
+        "rich-text#footerinstitucionaispolitica",
+        "rich-text#footerinstitucionaispoliticacookies",
+        "rich-text#footerinstitucionaistrocas",
+        "rich-text#footerinstitucionaisduvidas"
+      ],
+      "props": {
+        "blockClass": "footer-institucionais"
+      }
+  
+  },
+  
+  "rich-text#footerduvidastitulo": {
+    "props": {
+      "text": "DÚVIDAS",
+      "blockClass": "footer-institucionaistitulo"
+    }
+  },
+  
+    "rich-text#footerinstitucionaispolitica": {
+      "props": {
+        "text": "Política de privacidade",
+        "blockClass": "footer-institucionaisconteudo"
+      }
+    },
+  
+      
+  
+      "rich-text#footerinstitucionaispoliticacookies": {
+        "props": {
+          "text": "Política de cookies",
+          "blockClass": "footer-institucionaisconteudo"
+        }
+      },
+  
+        "rich-text#footerinstitucionaistrocas": {
+          "props": {
+            "text": "Trocas",
+            "blockClass": "footer-institucionaisconteudo"
+          }
+        },
+
+          "rich-text#footerinstitucionaisduvidas": {
+            "props": {
+              "text": "Dúvidas",
+              "blockClass": "footer-institucionaisconteudo"
+            }
+          },
+    
+          
+
+
+
+
+"flex-layout.col#faleconosco":{
+
+  "children": [
+    "rich-text#footerfaleconoscotitulo",
+    "rich-text#footerinstitucionaissac",
+    "rich-text#footerinstitucionaishorario",
+    "rich-text#footerinstitucionaisemail"
+  ],
+  "props": {
+    "blockClass": "footer-institucionais"
+  }
+
+},
+
+"rich-text#footerfaleconoscotitulo": {
+"props": {
+  "text": "FALE CONOSCO",
+  "blockClass": "footer-institucionaistitulo"
+}
+},
+
+"rich-text#footerinstitucionaissac": {
+  "props": {
+    "text": "SAC 17 3202-9100",
+    "blockClass": "footer-institucionaisconteudo"
+  }
+},
+
+  "rich-text#footerinstitucionaishorario": {
+    "props": {
+      "text": "Segunda a Sexta das 8:30 às 18:30",
+      "blockClass": "footer-institucionaisconteudo"
+    }
+  },
+
+    "rich-text#footerinstitucionaisemail":{
+      "props": {
+        "text": "sac@mercadaodosoculos.com.br",
+        "blockClass": "footer-institucionaisconteudo"
+
+      }
+    },
+ 
+
+
+
+
+
+
+
+  "flex-layout.col#seguncafooter":{
+
+    "children": [
+    "rich-text#seguncafooter",
+    "flex-layout.row#imagensseguncafooter"
+    ],
+    "props": {
+      "blockClass": "seguncafooter"
+    }
+
+},
+
+
+"rich-text#seguncafooter": {
+  "props": {
+    "textAlignment": "left",
+    "textPosition": "left",
+    "text": "SEGURANÇA",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "footer-institucionaistitulo"
+  }
+},
+
+
+"flex-layout.row#imagensseguncafooter":{
+
+  "children": [
+    "image#pagamentosletencrypt",
+    "image#pagamentosgoogle"]
+  },
+
+"image#pagamentosletencrypt": {
+  "props": {
+    "src": "/arquivos/pngwing.com.png"
+
+  }
+},
+
+"image#pagamentosgoogle": {
+  "props": {
+    "src": "/arquivos/selo-google-safe-browsing.png"
+
+  }
+},
+
+
+
+
+
+
+
+
+"flex-layout.col#pagamentosfooter":{
+
+  "children": [
+  "rich-text#pagamentosfooter",
+  "flex-layout.col#imagenspagamentosfooter"
+  ],
+  "props": {
+    "blockClass": "pagamentos-footer"
+  }
+
+},
+
+
+"rich-text#pagamentosfooter": {
+"props": {
+  "textAlignment": "left",
+  "textPosition": "left",
+  "text": "FORMAS DE PAGAMENTO",
+  "textColor": "c-on-emphasis",
+  "blockClass": "footer-institucionaistitulo"
+}
+},
+
+"flex-layout.col#imagenspagamentosfooter":{
+  "children": [
+    "flex-layout.row#imagenspagamentosfooter-col-1",
+    "flex-layout.row#imagenspagamentosfooter-col-2"
+  ]
+
+},
+
+"flex-layout.row#imagenspagamentosfooter-col-1":{
+
+  "children": [
+    "image#pagamentosfootervisa",
+    "image#pagamentosfootermaster",
+    "image#pagamentosfooterelo"
+  ],
+  "props": {
+    "blockClass": "bandeiras-pagamentos-footer"
+  }
+
+},
+
+"flex-layout.row#imagenspagamentosfooter-col-2":{
+
+  "children": [
+
+    "image#pagamentosfooterdinners",
+    "image#pagamentosfooterboleto",
+    "image#pagamentosfooteramex"
+  ],
+  "props": {
+    "blockClass": "bandeiras-pagamentos-footer-2"
+  }
+
+},
+
+
+
+
+"image#pagamentosfootervisa": {
+"props": {
+  "src": "/arquivos/c-visa.png"}
+},
+
+"image#pagamentosfootermaster": {
+  "props": {
+    "src": "/arquivos/c-master.png"}
+  },
+
+  "image#pagamentosfooterelo": {
+    "props": {
+      "src": "/arquivos/c-elo.png"}
+    },
+
+  
+    "image#pagamentosfooterdinners": {
+      "props": {
+        "src": "/arquivos/c-diners.png"}
+      },
+
+      "image#pagamentosfooterboleto": {
+        "props": {
+          "src": "/arquivos/c-boleto.png"}
+        },
+
+        "image#pagamentosfooteramex":{
+          "props": {
+            "src": "/arquivos/c-american.png"}
+          },
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Mercadão dos Óculos © | Todos os direitos reservados",
+      "blockClass": "footer-aling-center"
+    }
+  },
+
+
+
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "Mercadão dos Óculos © | Todos os direitos reservados",
+      "blockClass": "footer-aling-center"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#banner-principal-home",
+      "slider-layout#marcas",
+     "__fold__.experimentalLazyAssets",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#3banners-home",
+      "rich-text#shelf-title-novidades",
+      "flex-layout.row#shelfnovidades",
+      "flex-layout.row#banner-full-centro-home",
+      "rich-text#shelf-title-naopodefaltar",
+      "flex-layout.row#shelfnaopodefaltar"
+    ],
+   "parent": {
+   "challenge": "challenge.trade-policy-condition"
+    }
+  },
+
+
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/login",
+      "defaultContentVisibility": "hidden"
+    }
+  },
+
+
+
+
+
+
+  "list-context.image-list#banner-principal-home": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo3.png",
+          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo3_mobile.jpg"
+        },
+        {
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo.png",
+          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banners_mdo_mobile.jpg"
+        },
+        {
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo1.png",
+          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo1_mobile.jpg"
+        },
+        {
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo2.png",
+          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo2_mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay":{
+         "timeout":5000,
+         "stopOnHover":true
+
+      },
+
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Novos Lançamentos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByNameASC",
+      "collection": "137"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#3banners-home":{
+    "children": [
+    "image#3bannreshome1",
+    "image#3bannreshome2",
+    "image#3bannreshome3"
+  ],
+  "props": {
+    "blockClass": "banners-3-homepage" 
+  }
+
+  },
+
+
+  "image#3bannreshome1": {
+    "props": {
+      "src": "/arquivos/para-ele-v4.png",
+      "url": "/oculos-de-grau/genero_Masculino"
+    }
+  },
+
+  "image#3bannreshome2": {
+    "props": {
+      "src": "/arquivos/para-ela-v4.png",
+      "url": "/oculos-de-grau/genero_Feminino"
+    }
+  },
+
+  "image#3bannreshome3": {
+    "props": {
+      "src": "/arquivos/para-kids-v4.png",
+      "url": "/oculos-de-grau/genero_Infantil"
+    }
+  },
+
+  "slider-layout#marcas": {
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6"
+    ],
+    "props": {
+      "blockClass": "home-page-carrousel-de-marcas" ,
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "/arquivos/andreaconsini-brand.png"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "/arquivos/armatti-brand-2.png"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "/arquivos/caffe-brand.png"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "/arquivos/cfrance-brand.png"
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "src": "/arquivos/clote-brand.png"
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "/arquivos/dolomiti-brand.png"
+    }
+  }
+,
+
+  "rich-text#shelf-title-novidades": {
+    "props": {
+      "text": "Mais Vendidos",
+      "blockClass": "shelfTitle"
+      
+    }
+  },
+
+  "flex-layout.row#shelfnovidades": {
+    "children": ["list-context.product-list#novidades"]
+  },
+  "list-context.product-list#novidades": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#novidades"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "138"
+    }
+  },
+  "slider-layout#novidades": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#banner-full-centro-home":{
+    "children": [
+    "image#banner-full-centro-home"
+
+  ],
+  "props": {
+    "blockClass": "banner-full-centro-home" 
+  }
+  },
+  "image#banner-full-centro-home": {
+    "props": {
+      "src": "/arquivos/banner-feras-de-vendas-v2.png"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#shelf-title-naopodefaltar": {
+    "props": {
+      "text": "Não Pode Faltar",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelfnaopodefaltar": {
+    "children": ["list-context.product-list#naopodefaltar"]
+  },
+  "list-context.product-list#naopodefaltar": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#naopodefaltar"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "138"
+    }
+  },
+  "slider-layout#naopodefaltar": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}
