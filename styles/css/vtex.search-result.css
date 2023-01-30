@@ -1,0 +1,43 @@
+.filterItem {
+  height: 24px;
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+
+}
+
+.filterItem :global(.vtex-checkbox__inner-container) {
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+}
+
+
+.filterItem :global(.vtex-checkbox__label) {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.filterItem :global(.vtex-checkbox__box) {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACvSURBVHgBlY/fCQIxDMbbez/oCJZCoW8dQUdwBCfQDbwRdIIbwRE6Ql2g7W3gPZf+MRULRQRrICSE35cvQejPwD2Qc26Tc1YY4wl3wARgDYm897uhA1YVFkIsQ7Ezxsxaa/IpSCnNAJMKl1lxWCG34ziqVgRLLmUeY9xX+CWglK5lAzxEQHR7wxOUYwjhwDm/t664uVeWe6FdoEqoJ8bYFf14UlprH+BwRr3x7fk2nkkrZ0taIYyDAAAAAElFTkSuQmCC');
+  background-size: cover;
+  width: 12px;
+  height: 10px;
+  position: relative;
+}
+.filterItem :global(.vtex-checkbox__box-wrapper){
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.filter__container--specificationFilter_27 .filterItem :global(.vtex-checkbox__label) {
+  color: white;
+}
+
+.filterItem--selected :global(.vtex__icon-check) {
+  color: #B5272E;
+}

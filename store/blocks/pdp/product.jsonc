@@ -4,22 +4,21 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#descricaoetabelapdp",
-     // "flex-layout.row#description",
-     // "flex-layout.row#specifications-title",
-     // "product-specification-group#table",
-     // "flex-layout.row#novatabelaprincipalpdp",
+      // "flex-layout.row#description",
+      // "flex-layout.row#specifications-title",
+      // "product-specification-group#table",
+      // "flex-layout.row#novatabelaprincipalpdp",
       "flex-layout.row#novatebelaespecificacaopdp",
       "shelf.relatedProducts"
       //"product-reviews",
-     // "product-questions-and-answers"
+      // "product-questions-and-answers"
     ],
     "parent": {
       "challenge": "challenge.trade-policy-condition"
-       }
+    }
   },
 
-
-  "flex-layout.row#descricaoetabelapdp":{
+  "flex-layout.row#descricaoetabelapdp": {
     "children": [
       "flex-layout.row#description",
       "flex-layout.row#novatabelaprincipalpdp"
@@ -27,39 +26,38 @@
     "props": {
       "blockClass": "bloco-total-descricao-produto-pdp"
     }
-
-
   },
 
-
-
-/* teste thiago tabela  */
-"flex-layout.row#novatabelaprincipalpdp": {
-  "children": [
-    "product-specifications#novatabelaprincipalpdp"
-
-  ]},
+  /* teste thiago tabela  */
+  "flex-layout.row#novatabelaprincipalpdp": {
+    "children": ["product-specifications#novatabelaprincipalpdp"]
+  },
 
   "product-specifications#novatabelaprincipalpdp": {
     "props": {
       "blockClass": "tabela-descricao-produto-pdp",
       "shoudCollapseOnTabChange": false,
-      "hiddenSpecifications":["Comprimento da haste","Largura da lente","Largura da ponte","Altura da lente","Comprimento frontal"],
+      "hiddenSpecifications": [
+        "Comprimento da haste",
+        "Largura da lente",
+        "Largura da ponte",
+        "Altura da lente",
+        "Comprimento frontal"
+      ],
       "collapsible": "never"
-     
     }
   },
 
-/* end - teste thiago tabela */
+  /* end - teste thiago tabela */
 
-"rich-text#descricaoprodutopdp":{
-  "props": {
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "Descrição do Produto",
-    "blockClass": "titulo-descricao-produto-pdp"
-  }
-},
+  "rich-text#descricaoprodutopdp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Descrição do Produto",
+      "blockClass": "titulo-descricao-produto-pdp"
+    }
+  },
 
   "flex-layout.row#novatebelaespecificacaopdp": {
     "children": [
@@ -67,20 +65,15 @@
       "product-specifications#larguralente",
       "product-specifications#larguradaponte",
       "product-specifications#alturadalente",
-       "product-specifications#comprimentofrontal"
+      "product-specifications#comprimentofrontal"
     ],
-      "props": {
-        "blockClass": "tabela-geral-blocos-descricao-produto-pdp"
-      }
-
+    "props": {
+      "blockClass": "tabela-geral-blocos-descricao-produto-pdp"
+    }
   },
 
-
-
   "flex-layout.row#specifications-title": {
-    "children": [
-      "rich-text#specifications"
-    ]
+    "children": ["rich-text#specifications"]
   },
   "challenge.trade-policy-condition": {
     "props": {
@@ -92,7 +85,7 @@
       "text": "##### ESPECIFICAÇÕES"
     }
   },
- "flex-layout.row#product-breadcrumb": {
+  "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
     },
@@ -103,7 +96,7 @@
       "marginBottom": 7,
       "blockClass": "bloco-descricao-produto-pdp"
     },
-    "children": ["rich-text#descricaoprodutopdp","product-description"]
+    "children": ["rich-text#descricaoprodutopdp", "product-description"]
   },
   "flex-layout.row#product-main": {
     "props": {
@@ -123,6 +116,7 @@
     },
     "children": [
       "flex-layout.row#product-image",
+      "SearchOrigemStyle",
       "product-bookmark",
       "product-specification-badges"
     ]
@@ -130,10 +124,8 @@
 
   "product-specification-badges": {
     "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
+      "visibleWhen": "",
+      "displayValue": "SPECIFICATION_VALUE"
     }
   },
 
@@ -170,17 +162,23 @@
       "product-separator",
       "product-identifier.product",
       "sku-selector",
-     
+
       "product-assembly-options",
       "product-gifts",
-      "product-quantity",
-      "flex-layout.row#buy-button",
+      "flex-layout.row#Buy-Quantity",
       "availability-subscriber",
       "shipping-simulator",
       "share#default"
     ]
   },
-
+  "flex-layout.row#Buy-Quantity": {
+    "props":{
+      "blockClass":"Buy-Quantity",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true
+    },
+    "children": ["product-quantity", "flex-layout.row#buy-button"]
+  },
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3
@@ -198,7 +196,10 @@
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass":"buy-button",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true
     },
     "children": ["add-to-cart-button"]
   },
@@ -214,23 +215,12 @@
     }
   },
 
-
-
-  
-
-
-  
-
-
-
-
   "product-specifications#comprimentodaaste": {
     "props": {
       "blockClass": "pdp-comprimentodaaste",
       "shoudCollapseOnTabChange": false,
-      "visibleSpecifications":["Comprimento da haste"],
+      "visibleSpecifications": ["Comprimento da haste"],
       "collapsible": "never"
-     
     }
   },
 
@@ -238,9 +228,8 @@
     "props": {
       "blockClass": "pdp-larguralente",
       "shoudCollapseOnTabChange": false,
-      "visibleSpecifications":["Largura da lente"],
+      "visibleSpecifications": ["Largura da lente"],
       "collapsible": "never"
-     
     }
   },
 
@@ -248,20 +237,17 @@
     "props": {
       "blockClass": "pdp-larguradaponte",
       "shoudCollapseOnTabChange": false,
-      "visibleSpecifications":["Largura da ponte"],
+      "visibleSpecifications": ["Largura da ponte"],
       "collapsible": "never"
-     
     }
   },
-
 
   "product-specifications#alturadalente": {
     "props": {
       "blockClass": "pdp-alturadalente",
       "shoudCollapseOnTabChange": false,
-      "visibleSpecifications":["Altura da lente"],
+      "visibleSpecifications": ["Altura da lente"],
       "collapsible": "never"
-     
     }
   },
 
@@ -269,12 +255,8 @@
     "props": {
       "blockClass": "pdp-comprimentofrontal",
       "shoudCollapseOnTabChange": false,
-      "visibleSpecifications":["Comprimento frontal"],
+      "visibleSpecifications": ["Comprimento frontal"],
       "collapsible": "never"
-     
     }
   }
-
-
-
 }

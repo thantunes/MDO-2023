@@ -37,7 +37,7 @@
   "flex-layout.row#footer-1-mobile": {
     "children": [
 
-     
+
       "flex-layout.col#institucionais",
       "flex-layout.col#duvidas",
       "flex-layout.col#faleconosco",
@@ -74,7 +74,7 @@
 
 
 
-  
+
   "flex-layout.col#institucionais":{
 
     "children": [
@@ -84,9 +84,9 @@
       "rich-text#footerinstitucionaissejaumfranqueado"
     ],
     "props": {
-      "blockClass": "footer-institucionais"
+      "blockClass": ["footer-institucionais", "footer-institucionais-none"]
     }
-  
+
 },
 
 "rich-text#footerinstitucionaistitulo": {
@@ -102,7 +102,7 @@
     }
   },
 
-    
+
 
     "rich-text#footerinstitucionaisnossaslojas": {
       "props": {
@@ -117,7 +117,7 @@
           "blockClass": "footer-institucionaisconteudo"
         }
       },
-  
+
 
 
 
@@ -131,34 +131,34 @@
         "rich-text#footerinstitucionaisduvidas"
       ],
       "props": {
-        "blockClass": "footer-institucionais"
+        "blockClass":["footer-institucionais", "footer-institucionais-none"]
       }
-  
+
   },
-  
+
   "rich-text#footerduvidastitulo": {
     "props": {
       "text": "DÚVIDAS",
       "blockClass": "footer-institucionaistitulo"
     }
   },
-  
+
     "rich-text#footerinstitucionaispolitica": {
       "props": {
         "text": "Política de privacidade",
         "blockClass": "footer-institucionaisconteudo"
       }
     },
-  
-      
-  
+
+
+
       "rich-text#footerinstitucionaispoliticacookies": {
         "props": {
           "text": "Política de cookies",
           "blockClass": "footer-institucionaisconteudo"
         }
       },
-  
+
         "rich-text#footerinstitucionaistrocas": {
           "props": {
             "text": "Trocas",
@@ -172,8 +172,8 @@
               "blockClass": "footer-institucionaisconteudo"
             }
           },
-    
-          
+
+
 
 
 
@@ -220,7 +220,7 @@
 
       }
     },
- 
+
 
 
 
@@ -357,7 +357,7 @@
       "src": "/arquivos/c-elo.png"}
     },
 
-  
+
     "image#pagamentosfooterdinners": {
       "props": {
         "src": "/arquivos/c-diners.png"}

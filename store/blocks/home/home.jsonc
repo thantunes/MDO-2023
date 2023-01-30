@@ -2,8 +2,10 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#banner-principal-home",
+      "SearchFilterColor",
       "slider-layout#marcas",
-     "__fold__.experimentalLazyAssets",
+      "list-context.image-list#Brands",
+      "__fold__.experimentalLazyAssets",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#3banners-home",
@@ -13,11 +15,10 @@
       "rich-text#shelf-title-naopodefaltar",
       "flex-layout.row#shelfnaopodefaltar"
     ],
-   "parent": {
-   "challenge": "challenge.trade-policy-condition"
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
     }
   },
-
 
   "challenge.trade-policy-condition": {
     "props": {
@@ -26,31 +27,13 @@
     }
   },
 
-
-
-
-
-
   "list-context.image-list#banner-principal-home": {
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 720,
       "images": [
         {
-          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo3.png",
-          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo3_mobile.jpg"
-        },
-        {
-          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo.png",
-          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banners_mdo_mobile.jpg"
-        },
-        {
-          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo1.png",
-          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo1_mobile.jpg"
-        },
-        {
-          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo2.png",
-          "mobileImage": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/banner_mdo2_mobile.jpg"
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/Banner-Chris-Flores-B2B1---hero.png"
         }
       ]
     }
@@ -62,10 +45,9 @@
         "tablet": 1,
         "phone": 1
       },
-      "autoplay":{
-         "timeout":5000,
-         "stopOnHover":true
-
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
       },
 
       "infinite": true,
@@ -94,7 +76,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop":5,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },
@@ -104,18 +86,16 @@
     }
   },
 
-  "flex-layout.row#3banners-home":{
+  "flex-layout.row#3banners-home": {
     "children": [
-    "image#3bannreshome1",
-    "image#3bannreshome2",
-    "image#3bannreshome3"
-  ],
-  "props": {
-    "blockClass": "banners-3-homepage" 
-  }
-
+      "image#3bannreshome1",
+      "image#3bannreshome2",
+      "image#3bannreshome3"
+    ],
+    "props": {
+      "blockClass": "banners-3-homepage"
+    }
   },
-
 
   "image#3bannreshome1": {
     "props": {
@@ -140,19 +120,60 @@
 
   "slider-layout#marcas": {
     "children": [
-      "image#brand1",
-      "image#brand2",
-      "image#brand3",
-      "image#brand4",
-      "image#brand5",
-      "image#brand6"
+      // // "image#brand1",
+      // "image#brand2",
+      // // "image#brand3",
+      // // "image#brand4",
+      // "image#brand5",
+      // "image#brand6"
     ],
+
     "props": {
-      "blockClass": "home-page-carrousel-de-marcas" ,
+      "blockClass": "home-page-carrousel-de-marcas",
       "autoplay": {
         "timeout": 7000,
         "stopOnHover": true
+      },
+      "itemsPerPage":{
+        "desktop":7
       }
+    }
+  },
+  "list-context.image-list#Brands": {
+    "children": ["slider-layout#marcas"],
+    "props": {
+      "preload": true,
+      "height": 68,
+      "images": [
+        {
+          "image": "/arquivos/clote-brand.png",
+          "description": "something something"
+        },
+        {
+          "image": "/arquivos/armatti-brand-2.png",
+          "description": "something something"
+        },
+        {
+          "image": "/arquivos/Paolla-Belle.png",
+          "description": "something something"
+        },
+        {
+          "image": "/arquivos/mlux.png",
+          "description": "something something"
+        },
+        {
+          "image": "/arquivos/cf-chris-flores.png",
+          "description": "something something"
+        },
+        {
+          "image": "/arquivos/Rizz.png",
+          "description": "something something"
+        },
+        {
+          "image": "/arquivos/dolomiti-brand.png",
+          "description": "something something"
+        }
+      ]
     }
   },
   "image#brand1": {
@@ -184,14 +205,11 @@
     "props": {
       "src": "/arquivos/dolomiti-brand.png"
     }
-  }
-,
-
+  },
   "rich-text#shelf-title-novidades": {
     "props": {
       "text": "Mais Vendidos",
       "blockClass": "shelfTitle"
-      
     }
   },
 
@@ -209,7 +227,7 @@
   "slider-layout#novidades": {
     "props": {
       "itemsPerPage": {
-        "desktop":5,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },
@@ -219,18 +237,15 @@
     }
   },
 
-  "flex-layout.row#banner-full-centro-home":{
-    "children": [
-    "image#banner-full-centro-home"
-
-  ],
-  "props": {
-    "blockClass": "banner-full-centro-home" 
-  }
+  "flex-layout.row#banner-full-centro-home": {
+    "children": ["image#banner-full-centro-home"],
+    "props": {
+      "blockClass": "banner-full-centro-home"
+    }
   },
   "image#banner-full-centro-home": {
     "props": {
-      "src": "/arquivos/banner-feras-de-vendas-v2.png"
+      "src": "/arquivos/Banner-Chris-Flores-B2B2---meio.png"
     }
   },
 
@@ -267,7 +282,7 @@
   "slider-layout#naopodefaltar": {
     "props": {
       "itemsPerPage": {
-        "desktop":5,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },

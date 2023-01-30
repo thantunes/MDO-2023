@@ -1,0 +1,8 @@
+{
+  "SearchFilterColor":{
+    "component":"SearchColorsGradient"
+  },
+  "SearchOrigemStyle":{
+    "component":"SearchOrigemStyle"
+  }
+}

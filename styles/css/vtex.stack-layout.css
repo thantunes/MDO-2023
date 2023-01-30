@@ -7,3 +7,6 @@
   top: 0;
   left: auto;
 }
+.stackItem--prodsum :global(.vtex-CollectionCustom){
+  margin: 0px !important;
+}

@@ -79,11 +79,11 @@
       "itemProps": {
         "type": "internal",
         "categoryID":"99",
-        "href": "/mais-vendidos/",
+        "href": "",
         "noFollow": false,
         "tagTitle": "ESSENTIALS",
         "text": "ESSENTIALS",
-        "blockClass": "link-menu"
+        "blockClass": ["link-menu", "link-menu-essentials", "link-menu-disable"]
       }
     }
   },

@@ -147,6 +147,6 @@
 :global(.vtex-login-2-x-content--codeConfirmation)
 :global(.vtex-login-2-x-contentFormVisible){z-index:1; background-color: #fff;border: 2px solid #EBEBED!important;}
 :global(.render-route-store-login)
-:global(.vtex-minicart-2-x-minicartIconContainer){margin-top: -27px;}
+:global(.vtex-minicart-2-x-minicartIconContainer){margin-top: -59px;}
 
 }

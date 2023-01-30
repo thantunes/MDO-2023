@@ -140,6 +140,147 @@
   color: #b42c2c;
 }
 
+.logoImage {
+  margin-top: 35px;
+}
+
+.shippingContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.shippingContainer :global(.vtex-button) {
+  margin-top: 22px;
+  width: 99px !important;
+  height: 40px !important;
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+.shippingContainer :global(.vtex-button__label) {
+  font-size: 0px;
+}
+
+.shippingContainer :global(.vtex-button__label)::before {
+  content: 'Calcular';
+  color: white;
+  display: block;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group) {
+  width: 240px;
+  height: 40px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+}
+.shippingContainer :global(.vtex-input-prefix__group){
+  /* position: relative; */
+
+}
+.shippingContainer :global(.vtex-address-form__postalCode){
+  position: relative;
+  padding-left: 100px;
+}
+.shippingContainer :global(.vtex-input__label ){
+  opacity: 0;
+}
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL){
+  display: none;
+}
+.shippingContainer :global(.vtex-input-prefix__group)::before {
+  content: "Calcular frente:";
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0F0F0F;
+  position: absolute;
+  left: 0px;
+  top: 36%;
+}
+.shippingContainer :global(.vtex-button){
+  background: black;
+}
+.shippingTableHead{
+  display: unset;
+}
+.shippingTableRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.shippingTableHeadDeliveryName,
+.shippingTableHeadDeliveryEstimate,
+.shippingTableHeadDeliveryPrice {
+  background: #EEEEEE;
+  margin: 0px 2px;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: #0F0F0F;
+}
+.shippingTableCell{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  margin: 2px 2px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #0F0F0F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shippingTableRadioBtn{
+  display: none;
+}
+
+:global(.vtex-address-form__postalCode) :global(.vtex-input__error){
+  position: absolute;
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  font-size: 0px !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--Buy-Quantity) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+  content: "Comprar";
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.shippingContainer :global(.vtex-address-form-4-x-input)::placeholder{
+  content: "Seu CEP Aqui";
+}
 :global(.vtex-breadcrumb-1-x-container){    width: 100%;}
 :global(.vtex-login-2-x-contentForm)
 :global(.vtex-login-2-x-emailAndPasswordForm){display:none;}
@@ -148,7 +289,7 @@
 :global(.vtex-button){margin-top: 25px;margin-bottom: 25px;background-color: #B5272E;
   border: none;}
 :global(.vtex-search-result-3-x-totalProducts--layout){display:none;}
-:global(.vtex-menu-2-x-menuItem--menu-top) 
+:global(.vtex-menu-2-x-menuItem--menu-top)
 :global(.vtex-menu-2-x-styledLinkContent) {color: #B5272E;font-size: 12px;text-transform: uppercase;margin-top: -11px; padding: 0px 10px;font-weight: bold;}
 
 :global(.vtex-menu-2-x-menuContainer)

@@ -1,0 +1,73 @@
+#Faixa-01 {
+  background: #E5BF14;
+}
+
+#Faixa-02 {
+  background: #B5272E;
+}
+
+#Faixa-03 {
+  background: #53B573;
+}
+
+#Faixa-04 {
+  background: #434483;
+}
+
+#Faixa-05 {
+  background: #A14381;
+}
+
+#Faixa-06 {
+  background: #ACC90C;
+}
+
+#Faixa-07 {
+  background: #33AAE2;
+}
+
+#Faixa-08 {
+  background: #EF7824;
+}
+
+#Faixa-09 {
+  background: #BFBFBF;
+}
+
+#Faixa-10 {
+  background: #0F0F0F;
+}
+
+
+.vtex-search-result-3-x-filter__container--selectedFilters {
+  display: none;
+}
+
+
+#CD-Rio-Preto::before {
+  content: " ";
+  display: block;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARvSURBVHgBtZffS6RVGMefWcsRE7qQFY1qxzRHFNedWH8GokTojVGIwarhgqggaxddJHhhZKZUuqn7D3gj/kAw8CJWS0mTQlE2S80FvfAnDK206ujM7K7Pfp/zzszq8L7j6Lhf+Oi87/nxPOc55zznvCYKTq+A6x4+ANfAO+B1YAKPwRpYBxPgAfgLPKFLUAr4ytPhIeAzkDp/g289Dl9YFtAM3EEYNeIpaAOJdE69CX4BRyEY9+ICk6RNW1D6GCxfgmF/Hr5P9OlZxt94ScbZBn6DE3h428i4hOhXow5MJhPHx8dzfX09DwwM8ObmJh8dHfHh4SFvbGyod1ImdaTuybY3gR2wxiQbrImvSZsvXQcqKip4bGyM3W43G0nKRkdHuby83NcuA/z5wrjgBt/7G7eCYz3DMTEx3NHRwefVXbT5CG3/P238JDe8xiWRfGM0cjHucDj4vHI4DviROG7sQDtrCY7eAwt6cy6hDFllZYzO9Bz4F2RfIS1bJfnPicViocrKSgpZt29jeV/TK5FUfl1C8CEw+5cWFxdTQUGB73l/f5+WlpZodXWVsNgoLi6OEhISKDExkRYXF2l2dtZXNyoqiqxWKyUlJZE5P186I7p3z9/Eq6BIfvxOOnMv28orl8vF1dXVnJyczGazWZXHxsZyYWGhKm9qajrVFg5wRkYG9/f3ax309RmtAzm0aFvPAdnnXrW1tal36enpqtPh4WGuq6vjrq4u3tvb45KSElVeU1PDQ0NDXFVVpZ4xjVoH6+tGDvwnDjj0HJAk45WMXt5lZmbyzMyMKvOysrLCOTk5KjJ9MlJobm7O149nSxg54LhCQai2tlbN5/z8PMEJio6OJoSd7HY7bW1t0fb2NiFfkNPpJBinwcFB1S5f5j8I7Zw1BaLp6Wnu7Ozk3NxcNdrw8HDu7u7m3t5e9TsiIoJTU1M5LS2NIyMjGYuUe3p6zpqCRxKBNT2vYFD9X1hYoMbGRtrd3aW8vDxqbm6m7OxsOj4+VkxNTaldIdsWC0/R0NCgIuHbxp6+dLQlf/r0IiAHi+T2lpYWDgsLY4RdLUI5bORZIrG8vMxFRUWqfmtrq34ikrPjzh2jCPwkeUAuHp+QXy4YGRlRuQCrnbKysmh8fJx2dnbU/NtsNiotLSWEnlJSUghbUtXV1cSEdKZXIvfFn+VHJvhHLwplkkZD1a1bRqOXu0GuOCDroJUMDqPO9nZ2XuAw4oMDZrQNcBjdZS0bKqUaOfDl1avsvMBxrIyjbQAHbvrPiUTBdyF5DdSdbCDTgcsG8rKxUSm7fz9Q2IUnMnq9RSGn06TXgc/p1DVKO1IltWJ3sOR4XMNwH9OynOxzyYKy2qWOsXHhD5BMBnoLnzoPvwjcQSissTZQYzXg6mzXVujLMP4ZBSNUtIAp4LwEw25P2M/3dYQG74LvwLMQHZDtZqWLCo1t4AewFGREXKzd935kLckFlImCEGtp+oYHucLJQpLvx0hPFfmGlINFDrYx0m46D0za+4B6DjOC1SNPwXw5AAAAAElFTkSuQmCC');
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 35px;
+}
+#CD-Rio-Preto .vtex-checkbox__line-container {
+  gap: 50px;
+}
+#CD-Espirito-Santo::before {
+  content: " ";
+  display: block;
+  background-image: url('data:image/png;base64,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');
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 35px;
+}
+#CD-Espirito-Santo .vtex-checkbox__line-container{
+  gap: 50px;
+}
+#CD-Rio-Preto, #CD-Espirito-Santo {
+  margin: 10px 0px;
+}
