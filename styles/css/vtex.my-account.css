@@ -150,3 +150,10 @@
 :global(.vtex-minicart-2-x-minicartIconContainer){margin-top: -59px;}
 
 }
+
+
+@media only screen and (max-width: 1480px) and (min-width: 1005px)  {
+
+:global(.vtex-store-components-3-x-logoImage) {max-width: 90%;}
+
+}
