@@ -32,8 +32,14 @@
     "props": {
       "height": 720,
       "images": [
+       {
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/Banner-Chris-Flores-se.jpg"
+        },
         {
-          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/Banner-Chris-Flores-B2B1---hero.png"
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/Banner-Chris-Flores-se-1.png"
+        },
+        {
+          "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/Banner-Chris-Flores-se-2.png"
         }
       ]
     }
