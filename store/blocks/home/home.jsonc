@@ -58,7 +58,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "Novos Lançamentos",
+      "text": "Lançamentos",
       "blockClass": "shelfTitle"
     }
   },
@@ -70,7 +70,7 @@
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByNameASC",
-      "collection": "137"
+      "collection": "147"
     }
   },
   "slider-layout#demo-products": {
@@ -208,7 +208,7 @@
   },
   "rich-text#shelf-title-novidades": {
     "props": {
-      "text": "Mais Vendidos",
+      "text": "Produtos em destaque",
       "blockClass": "shelfTitle"
     }
   },
@@ -221,7 +221,7 @@
     "children": ["slider-layout#novidades"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "collection": "138"
+      "collection": "137"
     }
   },
   "slider-layout#novidades": {
@@ -264,7 +264,7 @@
   },
   "rich-text#shelf-title-naopodefaltar": {
     "props": {
-      "text": "Não Pode Faltar",
+      "text": "Promoção",
       "blockClass": "shelfTitle"
     }
   },
@@ -276,7 +276,7 @@
     "children": ["slider-layout#naopodefaltar"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "collection": "138"
+      "collection": "159"
     }
   },
   "slider-layout#naopodefaltar": {
