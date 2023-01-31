@@ -148,6 +148,10 @@
 :global(.vtex-login-2-x-contentFormVisible){z-index:1; background-color: #fff;border: 2px solid #EBEBED!important;}
 :global(.render-route-store-login)
 :global(.vtex-minicart-2-x-minicartIconContainer){margin-top: -59px;}
+:global(.vtex-login-2-x-content--accountOptions)
+:global(.vtex-login-2-x-contentFormVisible){    position: inherit;width: 100%;    margin-left: inherit;min-height: inherit;}
+:global(.vtex-login-2-x-button)
+:global(.t-action--small){font-family: 'Montserrat',sans-serif;    color: #000;}
 
 }
 
