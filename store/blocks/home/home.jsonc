@@ -32,7 +32,7 @@
     "props": {
       "height": 720,
       "images": [
-       {
+        {
           "image": "https://mercadaodosoculosb2b.vteximg.com.br/arquivos/Banner-Chris-Flores-se.jpg"
         },
         {
@@ -105,21 +105,21 @@
 
   "image#3bannreshome1": {
     "props": {
-      "src": "/arquivos/para-ele-v4.png",
+      "src": "/arquivos/para-ele-v5.png",
       "url": "/oculos-de-grau/genero_Masculino"
     }
   },
 
   "image#3bannreshome2": {
     "props": {
-      "src": "/arquivos/para-ela-v4.png",
+      "src": "/arquivos/para-ela-v5.png",
       "url": "/oculos-de-grau/genero_Feminino"
     }
   },
 
   "image#3bannreshome3": {
     "props": {
-      "src": "/arquivos/para-kids-v4.png",
+      "src": "/arquivos/para-kids-v5.png",
       "url": "/oculos-de-grau/genero_Infantil"
     }
   },
