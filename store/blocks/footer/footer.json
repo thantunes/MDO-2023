@@ -382,7 +382,7 @@
 
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": ["rich-text#footer","flex-layout.row#dev"],
     "props": {
       "blockClass": "credits"
     }
@@ -394,6 +394,31 @@
     }
   },
 
+  "flex-layout.row#dev":{
+    "children": ["rich-text#devfooter","image#logoevisionfooter","image#logovtexfooter"],
+    "props": { "blockClass": "footer-devs"}
+  },
+
+  "rich-text#devfooter": {
+    "props": {
+     "text": "feito com orgulho por"
+    }
+  },
+
+
+  "image#logoevisionfooter": {
+    "props": {
+      "src": "/arquivos/logo-vtex-2023-v2.png",
+      "blockClass": "footer-logo-evision"
+    }
+  },
+
+  "image#logovtexfooter": {
+    "props": {
+      "src": "/arquivos/logo-evision-mdo-2023-v2.png",
+      "blockClass": "footer-logo-vtex"
+    }
+  },
 
 
   "rich-text#footer-mobile": {
