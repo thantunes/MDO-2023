@@ -395,7 +395,7 @@
   },
 
   "flex-layout.row#dev":{
-    "children": ["rich-text#devfooter","image#logoevisionfooter","image#logovtexfooter"],
+    "children": ["rich-text#devfooter","image#logovtexfooter","image#logoevisionfooter"],
     "props": { "blockClass": "footer-devs"}
   },
 
