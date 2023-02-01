@@ -169,7 +169,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--footer-devs)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width: 22%!important;}
 :global(.vtex-flex-layout-0-x-flexRowContent--footer-devs)
-:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width:9%!important;}
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width:11%!important;}
 :global(.vtex-flex-layout-0-x-flexRowContent--footer-devs)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(3){width: 14%!important;}
 :global(.vtex-store-components-3-x-imageElement--footer-logo-evision){max-width: 53px;height: fit-content;margin-top: 9px;}
