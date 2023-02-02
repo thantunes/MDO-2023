@@ -131,6 +131,15 @@
 
 @media (min-width: 980px)
 {
+    :global(.vtex-store-components-3-x-logoImage) {margin-top: 10px!important;}
+
+
+    :global(.render-route-store-login)
+    :global(.vtex-store-components-3-x-logoImage) {margin-top: 35px!important;}
+    :global(.render-route-store-login)
+    :global(.vtex-login-2-x-container){    height: 30px;}
+
+
 :global(.vtex-login-2-x-contentAlwaysWithOptions){flex-direction: column;}
 :global(.vtex-login-2-x-contentAlwaysWithOptions) {background-image: url(/arquivos/bg-pagina-de-login.png);flex-direction: column;width: 100%; max-width: 100%;background-position: right;background-repeat: no-repeat; background-size: 50%;min-height: 715px;max-width: 1390px;}
 :global(.vtex-login-2-x-loginOptionsContainer) {min-height: 300px;background-color: #fff;border: 2px solid #EBEBED!important;border-radius: 10px; padding: 20px;margin-left: 105px;}
@@ -161,6 +170,7 @@
 
 :global(.vtex-store-components-3-x-logoImage) {max-width: 90%;}
 
+
 }
 
 
@@ -188,4 +198,13 @@
 :global(.vtex-flex-layout-0-x-flexCol--footer-institucionais-none){display:none;}
 :global(.vtex-flex-layout-0-x-flexCol--pagamentos-footer){display:none;}
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-row){padding-bottom: 25px;}
+}
+
+:global(.render-route-store-login)
+:global(.vtex-store-components-3-x-logoImage) {margin-top: 10px;}
+
+
+@media only screen and (max-width: 1540) and (min-width: 1480px)  {
+    :global(.vtex-store-components-3-x-imageElement--icone-favoritos-header){  margin-top: 97%;}
+    :global(.vtex-minicart-2-x-minicartIconContainer){margin-top: -55px;}
 }
