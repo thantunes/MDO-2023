@@ -148,7 +148,8 @@
       "menu-item#category-oculosdesol",
       "menu-item#category-oculosdegrau",
       "menu-item#category-lancamentos",
-      "menu-item#category-essentials"
+      "menu-item#category-essentials",
+      "menu-item#category-outlet"
     ],
     "props": {
       "orientation": "vertical"
