@@ -215,6 +215,17 @@
   :global(.vtex-menu-2-x-styledLinkContainer--menuoculosdesol){padding-left: 0px!important; }
   :global(.vtex-store-drawer-0-x-childrenContainer)
   :global(.vtex-menu-2-x-menuItem--menuoculosdegrau){padding-left: 0px;  margin-left:0px;}
+
+  :global(.vtex-store-drawer-0-x-childrenContainer)
+  :global(.vtex-menu-2-x-menuItem--menupromocao){padding-left: 0px;  margin-left:0px;}
+
+  :global(.vtex-menu-2-x-styledLinkContainer--menupromocao){padding-left: 0px!important;}
+
+  :global(.vtex-menu-2-x-styledLinkContainer--menumessentials){display:block;padding-left: 23px;margin-left: 0px;height: 60px;    position: relative;}
+
+
+
+
   :global(.vtex-store-drawer-0-x-childrenContainer)
   :global(.vtex-menu-2-x-styledLinkContainer--menulancamentos){padding-left: 0px!important; }
   :global(.vtex-store-drawer-0-x-childrenContainer)
