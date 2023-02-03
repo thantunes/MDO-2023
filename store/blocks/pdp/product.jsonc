@@ -1,8 +1,11 @@
 {
   "store.product": {
     "children": [
+      
       "flex-layout.row#product-breadcrumb",
+     
       "flex-layout.row#product-main",
+     
       "flex-layout.row#descricaoetabelapdp",
       // "flex-layout.row#description",
       // "flex-layout.row#specifications-title",
@@ -10,6 +13,7 @@
       // "flex-layout.row#novatabelaprincipalpdp",
       "flex-layout.row#novatebelaespecificacaopdp",
       "shelf.relatedProducts"
+      
       //"product-reviews",
       // "product-questions-and-answers"
     ],
@@ -115,6 +119,7 @@
       "blockClass": "product"
     },
     "children": [
+      
       "flex-layout.row#product-image",
       "SearchOrigemStyle",
       "product-bookmark",
@@ -155,6 +160,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      "add-to-list-btn",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
@@ -162,7 +168,6 @@
       "product-separator",
       "product-identifier.product",
       "sku-selector",
-
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#Buy-Quantity",
