@@ -198,6 +198,16 @@
 :global(.vtex-flex-layout-0-x-flexCol--footer-institucionais-none){display:none;}
 :global(.vtex-flex-layout-0-x-flexCol--pagamentos-footer){display:none;}
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-row){padding-bottom: 25px;}
+:global(.vtex-wish-list-1-x-wishlistIconContainer){right: 20px!important;    position: relative!important;}
+
+:global(.vtex-store-components-3-x-shippingContainer)
+:global(.vtex-address-form__postalCode){padding-left: 0px!important;}
+
+:global(.vtex-store-components-3-x-shippingContainer) 
+:global(.vtex-input-prefix__group)::before{display:none;}
+:global(.vtex-store-components-3-x-shippingContainer){gap: 10px!important;    padding-top: 20px;}
+:global(.vtex-store-components-3-x-shippingContainer)
+:global(.vtex-input__label){opacity: 1!important;}
 }
 
 :global(.render-route-store-login)
@@ -207,4 +217,42 @@
 @media only screen and (max-width: 1540) and (min-width: 1480px)  {
     :global(.vtex-store-components-3-x-imageElement--icone-favoritos-header){  margin-top: 97%;}
     :global(.vtex-minicart-2-x-minicartIconContainer){margin-top: -55px;}
+    :global(.vtex-wish-list-1-x-wishlistIconContainer){position: relative!important;}
+}
+
+
+:global(.vtex-search-result-3-x-filters--layout){display: flex;flex-direction: row;}
+
+
+:global(.vtex-search-result-3-x-filters--layout)
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_106){order:1;}
+
+
+:global(.vtex-stack-layout-0-x-stackItem--quickview){top: 165px!important;}
+:global(.vtex-wish-list-1-x-wishlistIconContainer){position: absolute; right: 0;top: 0;z-index: 999;}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer)
+:global(.vtex-button__label){padding-right: 20px;}
+
+
+:global(.vtex-search-result-3-x-gallery) 
+:global(.vtex-product-summary-2-x-container--product-shelf){position:relative;}
+
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){position: relative;}
+
+
+:global(.render-route-store-product)
+:global(.vtex-wish-list-1-x-wishlistIconContainer){right: 70px!important;}
+
+
+
+:global(.vtex-wish-list-1-x-outline) {
+    background-image: url(/arquivos/icon-favoritos-preenchido-v2.png);
+    background-size: contain;
+}
+
+:global(.vtex-wish-list-1-x-fill) {
+    background-image: url(/arquivos/icon-favoritos-v2.png)!important;
+    background-size: contain;
 }
