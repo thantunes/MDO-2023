@@ -256,3 +256,34 @@
     background-image: url(/arquivos/icon-favoritos-v2.png)!important;
     background-size: contain;
 }
+
+
+
+/*Ordem dos filtros*/
+
+:global(.vtex-search-result-3-x-filtersWrapper) { display: flex; flex-direction: column;}
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_24) {order:1;}
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_106) {order:2;}
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_107) {order:3;}
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_30) {order:4;}
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_23) {order:5;} 
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_27){order:6;} 
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_29) {order:7;} 
+:global(.vtex-search-result-3-x-filter__container--b) {order:8;} 
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_32) {order:9;} 
+:global(.vtex-search-result-3-x-filter__container--specificationFilter_31) {order:10;} 
+
+
+:global(.vtex-search-result-3-x-accordionFilter){display: flex; flex-direction: column;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--modelo){order:1;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--centro-de-distribuicao){order:2;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--genero){order:3;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--formato-da-armacao){order:4;}
+:global(.vtex-search-result-3-x-filterAccordionItemBox--material){order:5;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--faixa-de-preco){order:6;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--formato-da-armacao){order:7;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--marcas){order:8;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--cor){order:9;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--tamanho-do-aro){order:10;}
+
+/*End - Ordem dos filtros*/
