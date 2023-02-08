@@ -279,9 +279,10 @@
 :global(.vtex-search-result-3-x-accordionFilterContainer--centro-de-distribuicao){order:2;}
 :global(.vtex-search-result-3-x-accordionFilterContainer--genero){order:3;}
 :global(.vtex-search-result-3-x-accordionFilterContainer--formato-da-armacao){order:4;}
-:global(.vtex-search-result-3-x-filterAccordionItemBox--material){order:5;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--material){order:5;}
 :global(.vtex-search-result-3-x-accordionFilterContainer--faixa-de-preco){order:6;}
 :global(.vtex-search-result-3-x-accordionFilterContainer--formato-da-armacao){order:7;}
+:global(.vtex-search-result-3-x-accordionFilterContainer--tipo-de-armacao){order:7;}
 :global(.vtex-search-result-3-x-accordionFilterContainer--marcas){order:8;}
 :global(.vtex-search-result-3-x-accordionFilterContainer--cor){order:9;}
 :global(.vtex-search-result-3-x-accordionFilterContainer--tamanho-do-aro){order:10;}
