@@ -1,7 +1,7 @@
 {
   "vendor": "mercadaodosoculosb2b",
   "name": "mercadao-theme",
-  "version": "1.0.0",
+  "version": "0.0.43",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -66,8 +66,7 @@
     "vtex.product-context": "0.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.reviews-and-ratings": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
