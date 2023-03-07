@@ -1,0 +1,25 @@
+{
+    "store.custom#not-allowed": {
+      "blocks": [
+        "flex-layout.row#not-allowed"
+      ]
+    },
+
+    "flex-layout.row#not-allowed": {
+        "children": [
+        
+          "rich-text#texto-acesso-negado"
+        ]
+      },
+
+      "rich-text#texto-acesso-negado": {
+        "props": {
+          "text":
+          "# Acesso Negado",
+          "blockClass": "acesso-negado-text"
+        }
+      }
+    
+
+}
+  
