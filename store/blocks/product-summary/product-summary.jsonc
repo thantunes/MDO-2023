@@ -21,7 +21,9 @@
   },
   "challenge.trade-policy-condition": {
     "props": {
-      "redirectPath": "/login"
+      "redirectPath": "/login",
+      "forbiddenRedirectPath":"/not-allowed",
+      "defaultContentVisibility": "hidden"
     }
   },
  "stack-layout#prodsum": {
