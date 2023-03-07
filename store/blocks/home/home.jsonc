@@ -23,7 +23,7 @@
   "challenge.trade-policy-condition": {
     "props": {
       "redirectPath": "/login",
-      "forbiddenRedirectPath":"/login",
+      "forbiddenRedirectPath":"/not-allowed",
       "defaultContentVisibility": "hidden"
     }
   },
