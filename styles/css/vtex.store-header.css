@@ -173,7 +173,7 @@
 :global(.vtex-store-components-3-x-searchBarContainer )
 :global(.vtex-styleguide-9-x-input){color: #727273!important;}
 :global(.vtex-store-components-3-x-closeIcon){color: #727273!important;}
-:global(.vtex-store-components-3-x-imageElement--icone-favoritos-header){ width: 28px; height: 30px;margin-top: 75%;margin-right: 20px;}
+:global(.vtex-store-components-3-x-imageElement--icone-favoritos-header){ width: 28px; height: 30px;margin-top: 75%;margin-right: 20px;    opacity: 0;}
 :global(.vtex-store-components-3-x-searchBarContainer)
 :global(.vtex-input-prefix__group){border-color: #B5272E;    background-color: #fff;}
 
@@ -206,7 +206,7 @@
 :global(.vtex-login-2-x-buttonLink){background-image: url('/arquivos/login-mdo-2023.png');background-repeat: no-repeat;
   background-position: center;}
   :global(.vtex-minicart-2-x-minicartContainer){margin-left: 0px!important;}
-  :global(.vtex-store-components-3-x-imageElement--icone-favoritos-header) {width: 28px;height: 30px;margin-top: 0px;margin-right: 7px;}
+  :global(.vtex-store-components-3-x-imageElement--icone-favoritos-header) {width: 28px;height: 30px;margin-top: 0px;margin-right: 7px;    opacity: 0;}
   :global(.vtex-minicart-2-x-minicartIconContainer){    margin-top: 0px;}
   :global(.vtex-sticky-layout-0-x-container)
   :global(.vtex-minicart-2-x-openIconContainer){padding-left: 0; padding-right: 0px;}
