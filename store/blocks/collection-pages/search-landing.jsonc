@@ -1,6 +1,9 @@
 {
     "store.custom#landing": {
-      "blocks": ["image#landing","image#landingmobile","flex-layout.row#titulocolecaobuscapersonalizada","flex-layout.row#descricaocolecaobuscapersonalizada", "search-result-layout.customQuery#mondelez"]
+      "blocks": ["image#landing","image#landingmobile","flex-layout.row#titulocolecaobuscapersonalizada","flex-layout.row#descricaocolecaobuscapersonalizada", "search-result-layout.customQuery#mondelez"],
+	  "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
     },
     "image#landing": {
       "props": {
