@@ -14,6 +14,9 @@
         "simulationBehavior": "default",
         "maxItemsPerPage": 40
       }
+    },
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
     }
   },
 
