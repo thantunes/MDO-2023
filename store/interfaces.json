@@ -4,5 +4,8 @@
   },
   "SearchOrigemStyle":{
     "component":"SearchOrigemStyle"
+  },
+  "HeadScripts":{
+    "component":"HeadScripts"
   }
 }
