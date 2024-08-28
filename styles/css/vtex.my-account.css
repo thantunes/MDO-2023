@@ -184,7 +184,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--footer-devs)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(3){width: 14%!important;}
 :global(.vtex-store-components-3-x-imageElement--footer-logo-evision){max-width: 53px;height: fit-content;margin-top: 9px;}
-:global(.vtex-store-components-3-x-imageElement--footer-logo-vtex){max-width: 58px;height: fit-content;}
+:global(.vtex-store-components-3-x-imageElement--footer-logo-vtex){max-width: 58px}
 @media (max-width: 780px){
 :global(.vtex-flex-layout-0-x-flexRowContent--footer-devs)
 :global(.vtex-rich-text-0-x-container){margin: auto;display: block;text-align: center;}

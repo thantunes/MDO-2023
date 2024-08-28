@@ -26,18 +26,18 @@ const HeadScripts = () => {
   //   };
   // }, []);
 
-  useEffect(() => {
-    // Cria um novo elemento de script
-    const script = document.createElement('script');
-    script.src = "https://prime.altubots.com/tag/mercadaodosoculos/a616e99fcc304320b43f2c76/tag.js";
-    script.async = true;
+  // useEffect(() => {
+  //   // Cria um novo elemento de script
+  //   const script = document.createElement('script');
+  //   script.src = "https://prime.altubots.com/tag/mercadaodosoculos/a616e99fcc304320b43f2c76/tag.js";
+  //   script.async = true;
 
-    document.head.appendChild(script);
+  //   document.head.appendChild(script);
 
-    return () => {
-      document.head.removeChild(script);
-    };
-  }, []);
+  //   return () => {
+  //     document.head.removeChild(script);
+  //   };
+  // }, []);
 
   return null;
 };
