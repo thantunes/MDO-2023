@@ -251,3 +251,12 @@
 /*End - Ordem dos filtros*/
 
 
+/* BLACK FRIDAY */
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-link) {
+  background: black !important;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  background: black !important;
+}
